@@ -28,8 +28,10 @@
 > Review the various roles in a SOC.<br> Only 2 of the proposed choices are technical cybersecurity profiles but one works actively within the SOC and the other is more about infrastructure and tooling.<br>After you made your choice, click 'Escalate'.
 > > <details><summary><strong>Answer</strong></summary>Will Griffin</details>
 
-> What message did you get after blocking the IP address on the firewall?<br><br>
+> ❔**What message did you get after blocking the IP address on the firewall?**<br><br>
 > Paste the malicious IP into the designed section and add a comment.<br>At this point, the comment does not matter. 
 > > In a real SOC environment you would add a comment like ```\[TicketNo/ Incident Number] Malicious IP True Positive \[etc...]```
-> <img width="975" height="776" alt="SocLevel1Figure4" src="https://github.com/user-attachments/assets/9f43cdc3-c830-40d5-b121-7b25c27fd9ea" />
-> > <details><summary><strong>Answer</strong></summary>THM{until-we-meet-again}</details>
+> 
+> <img width="975" height="776" alt="SocLevel1Figure4" src="https://github.com/user-attachments/assets/9f43cdc3-c830-40d5-b121-7b25c27fd9ea" /><br>
+>
+> > <details><summary><strong>**Answer**</strong></summary>THM{until-we-meet-again}</details>
