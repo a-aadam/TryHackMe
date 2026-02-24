@@ -34,4 +34,4 @@
 > 
 > <img width="975" height="776" alt="SocLevel1Figure4" src="https://github.com/user-attachments/assets/9f43cdc3-c830-40d5-b121-7b25c27fd9ea" /><br>
 >
-> > <details><summary><strong>**Answer**</strong></summary>THM{until-we-meet-again}</details>
+> > <details><summary><strong>Answer</strong></summary>THM{until-we-meet-again}</details>
