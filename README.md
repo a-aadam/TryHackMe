@@ -11,9 +11,8 @@ This repository on its own will not help you learn anything. It is aimed at help
 </p>
 
 ## Paths
-### **SOC Level 1**
 <details>
-  <summary>Modules</summary>
+  <summary><h3><strong>SOC Level 1</strong></h3></summary>
   
   [Blue Team Introduction](https://github.com/a-aadam/TryHackMe/blob/main/SOC%20L1/Blue%20Team%20Introduction/README.md)<br>
   SOC Team Internals<br>
@@ -41,3 +40,4 @@ This repository on its own will not help you learn anything. It is aimed at help
     
 </details>
 -->
+<h3 align="center">SIEM | XDR | SOAR</h3>
