@@ -14,7 +14,8 @@ This repository on its own will not help you learn anything. It is aimed at help
 ### **SOC Level 1**
 <details>
   <summary>Modules</summary>
-  Blue Team Introduction<br>
+  
+  [Blue Team Introduction](https://github.com/a-aadam/TryHackMe/blob/main/SOC%20L1/Blue%20Team%20Introduction/README.md)<br>
   SOC Team Internals<br>
   Core SOC Solutions<br>
   Cyber Defense Frameworks<br>
