@@ -11,7 +11,7 @@ This repository on its own will not help you learn anything. It is aimed at help
 </p>
 
 ## Paths
-**SOC Level 1**
+### **SOC Level 1**
 <details>
   <summary>Modules</summary>
   Blue Team Introduction<br>
