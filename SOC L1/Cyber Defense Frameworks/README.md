@@ -4,7 +4,7 @@ The pyramid of pain illustrates the varying levels of difficulty and cost an adv
 Ex: Hashes are easy to modify to hide an attack/tool/script but not TTPs (Techniques Tactics Procedures)
 ![[Pasted image 20260219112804.png]]
 Ref: [What Is Pyramid of Pain in Cybersecurity? | Picus](https://www.picussecurity.com/resource/glossary/what-is-pyramid-of-pain)
-Levels:
+
 ### **Hash Values (Trivial)**
 - Considered trivial as it is easy to modify file contents to change hashes.
 	
@@ -100,3 +100,64 @@ Levels:
 	>❔ **Complete the static site. What is the flag?**
 	> > THM{PYRAMIDS_COMPLETE}
 
+## Cyber Kill Chain
+The Cyber Kill Chain consists of target identification, decision and order to attack the target, and target destruction.
+It is the roadmap and attacker takes for a successful attack. Understanding this maps helps defenders understand where and what to look as well as what to secure.
+![[Pasted image 20260220105132.png]]
+Ref: [Cyber Kill Chain® | Lockheed Martin](https://www.lockheedmartin.com/en-us/capabilities/cyber/cyber-kill-chain.html)
+
+### **Reconnaissance**
+- Adversaries use OSINT to gather publicly available information about the target from but not limited to: search engines, public media, social media accounts, forums/blogs, public records, WHOIS, harvesting information.
+- Passive Reconnaissance: No direct interaction with the target. 
+- Active Reconnaissance: Varying types of contact: social engineering, port scanning, banner grabbing, probing.
+- Some harvesting tools include but are not limited to: [theHarvester](https://github.com/laramies/theHarvester), [Hunter.io](https://hunter.io/), [OSINT Framework](https://osintframework.com/).
+	
+>❔ What is the name of the Intel Gathering Tool that is a web-based interface to the common tools and resources for open-source intelligence?
+> > OSINT Framework
+
+>❔ What is the definition for the email gathering process during the stage of reconnaissance?
+> > email harvesting
+
+### **Weaponization**
+- The attacker makes use of tools to craft a malicious package to be delivered to a victim.
+	
+>❔ What is the term for automated scripts embedded in Microsoft Office documents that can be used to perform tasks or exploited by attackers for malicious purposes?
+> > Macros
+
+### **Delivery**
+- Refers to the method used to deliver the payload/malware into the target environment.
+	
+>❔ What do you call an attack targeting a specific group by infecting their frequently visited website?
+> > Watering Hole Attack  
+
+### **Exploitation**
+- The moment the malicious is triggered and runs on the target's environment.
+	
+>❔ What is the term for a cyber attack that exploits a software vulnerability that is unknown by software vendors?
+> > Zero-day
+
+### **Installation**
+- Refers to techniques and tools an attacker may use or install on the target system to achieve persistence and eventually their end goal.
+	
+>❔ What technique is used to modify file time attributes to hide new or changes to existing files?
+> > Timestomping
+
+>❔ What malicious script can be planted by an attacker on the web server to maintain access to the compromised system and enables the web server to be accessed remotely?
+> > Web Shell
+
+### **Command & Control**
+- After getting persistence and executing the malware on the victim's machine, the attacker opens up the C2 channel through the malware to remotely control and manipulate the victim.
+	
+>❔ What is the C2 communication where the victim makes regular DNS requests to a DNS server and domain which belong to an attacker.
+> > DNS Tunneling
+
+### **Actions on Objectives (Exfiltration)**
+- After all stages were successful, the attacker can now achieve his end goal and exfiltrate data.
+- Ex: Steal crendentials, privilege escalation, internal reconn, lateral movement, exfiltration, corrupt backups etc.
+	  
+>❔ What technology is included in Microsoft Windows that can create backup copies or snapshots of files or volumes on the computer, even when they are in use?
+> > Shadow Copy
+
+**Practice Analysis**
+>❔ What is the flag after you complete the static site?
+> > THM{7HR347_1N73L_12_4w35om3}
