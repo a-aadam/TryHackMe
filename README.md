@@ -17,7 +17,7 @@ This repository on its own will not help you learn anything. It is aimed at help
   [Blue Team Introduction](https://github.com/a-aadam/TryHackMe/blob/main/SOC%20L1/Blue%20Team%20Introduction/README.md)<br>
   SOC Team Internals<br>
   Core SOC Solutions<br>
-  Cyber Defense Frameworks<br>
+  [Cyber Defense Frameworks](https://github.com/a-aadam/TryHackMe/tree/main/SOC%20L1/Cyber%20Defense%20Frameworks)<br>
   Phishing Analysis<br>
   Network Traffic Analysis<br>
   Network Security Analysis<br>
