@@ -8,16 +8,16 @@ Ref: [What Is Pyramid of Pain in Cybersecurity? | Picus](https://www.picussecuri
 ### **Hash Values (Trivial)**
 - Considered trivial as it is easy to modify file contents to change hashes.
 	
-	>❔ **Analyse the report associated with the hash "b8ef959a9176aef07fdca8705254a163b50b49a17217a4ff0107487f59d4a35d" [here.](https://assets.tryhackme.com/additional/pyramidofpain/t3-virustotal.pdf) What is the filename of the sample?**
-	> > Sales_Receipt 5606.xls
+>❔ **Analyse the report associated with the hash "b8ef959a9176aef07fdca8705254a163b50b49a17217a4ff0107487f59d4a35d" [here.](https://assets.tryhackme.com/additional/pyramidofpain/t3-virustotal.pdf) What is the filename of the sample?**
+> > Sales_Receipt 5606.xls
 
 ### **IP Address (Easy)**
 - An adversary can make it challenging to successfully carry out IP blocking is by using Fast Flux.
 - Fast Flux is a DNS technique used by botnets to hide phishing, web proxying, malware delivery, and malware communication activities behind compromised hosts acting as proxies.
 	  Ref: [Fast Flux 101: How Cybercriminals Improve the Resilience of Their Infrastructure to Evade Detection and Law Enforcement Takedowns](https://unit42.paloaltonetworks.com/fast-flux-101/)
 	
-	>❔ **Read the following [report](https://assets.tryhackme.com/additional/pyramidofpain/task3-anyrun.pdf) to answer this question. What is the **first IP address** the malicious process (**PID 1632**) attempts to communicate with?**
-	> > 50.87.136.52
+>❔ **Read the following [report](https://assets.tryhackme.com/additional/pyramidofpain/task3-anyrun.pdf) to answer this question. What is the **first IP address** the malicious process (**PID 1632**) attempts to communicate with?**
+> > 50.87.136.52
 
 >❔ **Read the following [report](https://assets.tryhackme.com/additional/pyramidofpain/task3-anyrun.pdf) to answer this question. What is the **first domain name** the malicious process ((PID 1632) attempts to communicate with?**
 > > craftingalegacy.com
@@ -31,17 +31,17 @@ Ref: [What Is Pyramid of Pain in Cybersecurity? | Picus](https://www.picussecuri
 - To detect malicious domains, proxy logs or web server logs can be used.
 - Attackers usually use URL shorteners. You can preview the URL redirection by adding '+' to the end of the shortened URL.
 	  
-	>❔ **Go to [this report on app.any.run](https://app.any.run/tasks/a66178de-7596-4a05-945d-704dbf6b3b90) and provide the first **suspicious** domain request you are seeing, you will be using this report to answer the remaining questions of this task.**
-	> > craftingalegacy.com
+>❔ **Go to [this report on app.any.run](https://app.any.run/tasks/a66178de-7596-4a05-945d-704dbf6b3b90) and provide the first **suspicious** domain request you are seeing, you will be using this report to answer the remaining questions of this task.**
+> > craftingalegacy.com
 
-	>❔ **What term refers to an address used to access websites?**
-	> > Domain Name
+>❔ **What term refers to an address used to access websites?**
+> > Domain Name
 
-	>❔ **What type of attack uses Unicode characters in the domain name to imitate the a known domain?**
-	> > Punycode attack
+>❔ **What type of attack uses Unicode characters in the domain name to imitate the a known domain?**
+> > Punycode attack
 
-	>❔ **Provide the redirected website for the shortened URL using a preview: https://tinyurl.com/bw7t8p4u**
-	> > https://tryhackme.com/
+>❔ **Provide the redirected website for the shortened URL using a preview: https://tinyurl.com/bw7t8p4u**
+> > https://tryhackme.com/
 
 ### **Host Artifacts (Annoying)**
 - Traces or observables that attackers leave on the system (registry values, suspicious processes, patterns and IOCs, etc)
