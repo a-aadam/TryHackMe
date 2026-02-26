@@ -1,8 +1,8 @@
 # Cyber Defense Framework
 ## Pyramid of Pain
 The pyramid of pain illustrates the varying levels of difficulty and cost an adversary would encounter to evade detection and continue their attack.<br>
-Ex: Hashes are easy to modify to hide an attack/tool/script but not TTPs (Techniques Tactics Procedures)
-![[Pasted image 20260219112804.png]]
+Ex: Hashes are easy to modify to hide an attack/tool/script but not TTPs (Techniques Tactics Procedures)<br>
+<br><img width="500" height="628" alt="CyberDefFrameworkFigure1" src="https://github.com/user-attachments/assets/99d16086-d4b1-4ab2-8c06-f095a5d307af" /><br>
 Ref: [What Is Pyramid of Pain in Cybersecurity? | Picus](https://www.picussecurity.com/resource/glossary/what-is-pyramid-of-pain)
 
 ### **Hash Values (Trivial)**
@@ -103,7 +103,7 @@ Ref: [What Is Pyramid of Pain in Cybersecurity? | Picus](https://www.picussecuri
 ## Cyber Kill Chain
 The Cyber Kill Chain consists of target identification, decision and order to attack the target, and target destruction.
 It is the roadmap and attacker takes for a successful attack. Understanding this maps helps defenders understand where and what to look as well as what to secure.
-![[Pasted image 20260220105132.png]]
+<br><br><img height="500" alt="CyberDefFrameworkFigure2" src="https://github.com/user-attachments/assets/210aca53-2486-4fb3-ab5e-9bccdf4d07c7" /><br>
 Ref: [Cyber Kill Chain® | Lockheed Martin](https://www.lockheedmartin.com/en-us/capabilities/cyber/cyber-kill-chain.html)
 
 ### **Reconnaissance**
@@ -158,6 +158,7 @@ Ref: [Cyber Kill Chain® | Lockheed Martin](https://www.lockheedmartin.com/en-us
 >❔ What technology is included in Microsoft Windows that can create backup copies or snapshots of files or volumes on the computer, even when they are in use?
 > > Shadow Copy
 
-**Practice Analysis**
+### **Practice Analysis**
+- Complete the interactive task.
 >❔ What is the flag after you complete the static site?
 > > THM{7HR347_1N73L_12_4w35om3}
