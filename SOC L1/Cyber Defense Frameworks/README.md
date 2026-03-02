@@ -420,25 +420,22 @@ MITRE Adversarial Tactics, Techniques, and Common Knowledge (ATT&CK)<br>
 - [AADAPT](https://aadapt.mitre.org/) (Adversarial Actions in Digital Asset Payment Technologies) is a newly released knowledge base that includes its own matrix, covering adversary tactics and techniques related to digital asset management systems.
 - [ATLAS](https://atlas.mitre.org/) (Adversarial Threat Landscape for Artificial-Intelligence Systems) is a knowledge base and framework that includes a [matrix](https://atlas.mitre.org/matrices/ATLAS), focusing on threats targeting artificial intelligence and machine learning systems.
 
+</details>
 
+---
 
+<details>
+<summary><h2><strong>Summit</strong></h2></summary>
 
+</details>
 
+---
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<details>
+<summary><h2><strong>Eviction</strong></h2></summary>
+The Eviction room (https://tryhackme.com/room/eviction) details how a SOC analyst classfies the TTPs linked to a threat actor group. There is a change that these theat actors target their company as similiar organizations were targeted.
+During the mapping exercise, the goal would be identify the TTPs assoicated so that it may be transmitted to the SOC and detection engineers to create detection rules in case that such scenario occurs.<br><br>
+Navigate to the MITRE simulation here: (https://static-labs.tryhackme.cloud/sites/eviction/).<br>
+On top of the page, you are presented with the MITRE techniques. You may slide from left to right && up and down.
+	
 </details>
